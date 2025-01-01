@@ -32,12 +32,12 @@ export function CardGrid(
             {item?.coverimage && (
               <Image
                 alt={item?.headline as string}
-                className="h-[150px] w-full object-cover sm:h-[200px]"
-                height={300}
+                className="h-[700px] w-full object-cover sm:h-[600px]"
+                height={400}
                 src={item?.coverimage}
                 data-tina-field={tinaField(item, "coverimage")}
                 style={{
-                  aspectRatio: "400/300",
+                  aspectRatio: "1",
                   objectFit: "cover",
                 }}
                 width={400}

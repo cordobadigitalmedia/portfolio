@@ -43,7 +43,7 @@ export function WelcomeHero(props: PageBlocksWelcomeHero) {
             {props.title}
           </h1>
           <div
-            className="prose text-primary-foreground [&_h3]:text-primary-foreground max-w-none"
+            className="prose text-primary-foreground [&_h3]:text-primary-foreground [&_h2]:text-primary-foreground max-w-none opacity-80"
             data-tina-field={tinaField(props, "message")}
           >
             <TinaMarkdown content={props.message} />
@@ -56,6 +56,7 @@ export function WelcomeHero(props: PageBlocksWelcomeHero) {
                     <Link
                       data-tina-field={tinaField(link, "label")}
                       key={link.label}
+                      target="blank"
                       href={link.link || ""}
                     >
                       <Button size="lg">{link.label}</Button>

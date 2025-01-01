@@ -1,23 +1,9 @@
 ---
 links:
-  - label: Home
-    link: /
-    linkedPage: content/pages/home.mdx
-    linkType: page
-    buttonStyle: ghost
-  - label: Gallery
-    linkedPage: content/pages/gallery.mdx
-    linkType: page
-    buttonStyle: ghost
-  - label: Blog
-    link: /blog
-    linkedPage: ''
-    linkType: relative
-    buttonStyle: ghost
   - label: Contact
-    link: /contact
+    link: 'mailto:ismael@cordobadigitalmedia.com'
     linkedPage: content/pages/contact.mdx
-    linkType: page
-    buttonStyle: ghost
+    linkType: external
+    buttonStyle: default
 ---
 

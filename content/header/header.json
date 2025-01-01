@@ -1,7 +1,8 @@
 {
   "logo": "/images/lawh-logo.png",
-  "siteTitle": "My Great Site",
-  "navAlignment": false,
+  "siteTitle": "Cordoba Digital Media",
+  "siteDescription": "We provide effective and culturally sensitive solutions for education and training using instructional design methods",
+  "navAlignment": true,
   "backgroundColor": "muted",
-  "darkmode": true
+  "darkmode": false
 }
